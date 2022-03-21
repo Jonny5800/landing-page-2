@@ -50,6 +50,9 @@ h1 {
 
 .three-icon-container {
     display: flex;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: rgb(119, 169, 243);
     color: white;
     border: black 1px solid;
@@ -61,14 +64,17 @@ h1 {
 }
 
 .icon-div {
-    justify-content: center;
     text-align: center;
+    border: white solid 1px;
+    border-bottom-style: solid;
+    border-bottom: 4px white solid;
+    border-bottom-width: 4px;
+    font-size: 40px;
 }
 
 .fa-solid {
     color: white;
     text-align: center;
-    text-decoration: underline;
     padding-bottom: 10px;
 }
 
@@ -78,4 +84,23 @@ h1 {
 
 .icon-3-text {
     text-align: right;
+}
+
+
+/*BOX 3.....................*/
+
+p span {
+    display: block;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    width: 50px;
+    height: auto;
+}
+
+.gallery {
+    width: 100px;
+    height: auto;
 }
