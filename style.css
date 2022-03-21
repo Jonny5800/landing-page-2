@@ -1,2 +1,81 @@
-<!doctype html><head><title>Landing Page 2 </title><link rel="stylesheet" href="style.css"></head><body><!--https: //unbounce.com/landing-page-examples/best-landing-page-design-examples/
-EXAMPLE--><div class="main"><div class="header"></div><div class="first-box"><div class="first-box-image-container"></div><div class="first-box-text-container"></div></div><div class="middle-white-space"></div><div class="second-box"><div class="tree=icon-container"><div class="icon1"></div><div class="icon2"></div><div class="icon3"></div></div></div><div class="contact-box"><div class="contact-box-text-container"></div></div><div class="image-galery"><div class="galery-container"><div class="image1"></div><div class="image2"></div><div class="image3"></div><div class="image4"></div><div class="image5"></div></div></div><div class="testimonials"></div><div class="footer"></div></div></body></html>
+.body {
+    background-color: rgb(170, 170, 170);
+}
+
+.main {
+    background-color: rgb(255, 0, 0);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.first-box {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*
+    padding-top: 5%;*/
+    padding-bottom: 5%;
+    border: black 1px solid;
+    background-color: rgb(119, 169, 243);
+}
+
+.first-box-image-container {
+    border: black 1px solid;
+}
+
+.first-box-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-box-text-container {
+    border: black 1px solid;
+}
+
+.middle-white-space {
+    text-align: center;
+}
+
+.suit-image {
+    width: 70%;
+    height: auto;
+}
+
+
+/*SECOND BOX..............................*/
+
+.three-icon-container {
+    display: flex;
+    background-color: rgb(119, 169, 243);
+    color: white;
+    border: black 1px solid;
+}
+
+.multi-icons {
+    border: 1px white solid;
+    padding: 1%;
+}
+
+.icon-div {
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-solid {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.icon-2-text {
+    text-align: center;
+}
+
+.icon-3-text {
+    text-align: right;
+}
