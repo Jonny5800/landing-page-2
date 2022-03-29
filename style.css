@@ -12,7 +12,9 @@
 }
 
 .body {
-    background-color: rgba(160, 154, 154, 0.719);
+    /*background-color: rgba(160, 154, 154, 0.719);*/
+    background: url(https://wallpaperaccess.com/full/186476.jpg);
+    background-repeat: repeat;
 }
 
 .main {
@@ -35,16 +37,24 @@ h1 {
 }
 
 .first-box-image-container {
-    border: black 1px solid;
+    /*border: black 1px solid;*/
 }
 
 .first-box-text {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(2vw);
+}
+
+#first-text {
+    border-bottom: white solid 3px;
+    padding-bottom: 6%;
 }
 
 .first-box-text-container {
-    border: black 1px solid;
+    /*border: black 1px solid;*/
+    vertical-align: middle;
+    padding-right: 4%;
 }
 
 .middle-white-space {
@@ -103,6 +113,8 @@ h1 {
 p span {
     display: block;
     text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 .image-gallery {
@@ -114,6 +126,8 @@ p span {
     background-color: black;
     color: white;
     text-align: center;
+    margin-top: 2%;
+    padding: 1% 2%;
 }
 
 .contact {
@@ -317,3 +331,12 @@ div.desc {
         flex-direction: column;
     }
 }
+
+
+/* MAKING RESPONSIVE FONT SIZING
+@media screen and (max-width) {
+    .first-box-text {
+
+    }
+}
+*/
