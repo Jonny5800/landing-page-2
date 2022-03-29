@@ -1,9 +1,15 @@
+/*To do:
+-text and icons to resize with viewport
+-centralise and increase nu,ber of pics in gallery
+-check icon boxed on mobile
+-make main image stand out more similar to the original page
+-add buttons
+-Tell Matt
+*/
+
 * {
     box-sizing: border-box;
 }
-
-
-/*TESTING**********************/
 
 .body {
     background-color: rgba(160, 154, 154, 0.719);
@@ -28,33 +34,33 @@ h1 {
     padding-top: 5%;
 }
 
-
-/* TESTING********************* */
-
-padding-bottom: 5%;
-
-}
 .first-box-image-container {
     border: black 1px solid;
 }
+
 .first-box-text {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .first-box-text-container {
     border: black 1px solid;
 }
+
 .middle-white-space {
     text-align: center;
 }
+
 .suit-image {
     width: 70%;
     height: auto;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
+
 
 /*SECOND BOX..............................*/
 
-/* TESTING**********************/
 .three-icon-container {
     display: flex;
     box-sizing: border-box;
@@ -62,12 +68,13 @@ padding-bottom: 5%;
     margin-right: 20px;
     background-color: rgb(119, 169, 243);
     color: white;
-    /*border: black 1px solid;*/
 }
+
 .multi-icons {
     border: 1px white solid;
     padding: 1%;
 }
+
 .icon-div {
     text-align: center;
     border-bottom-style: solid;
@@ -75,50 +82,101 @@ padding-bottom: 5%;
     border-bottom-width: 4px;
     font-size: 40px;
 }
+
 .fa-solid {
     color: white;
     text-align: center;
     padding-bottom: 10px;
 }
+
 .icon-2-text {
     text-align: center;
 }
+
 .icon-3-text {
     text-align: right;
 }
 
+
 /*BOX 3..................... */
+
 p span {
     display: block;
     text-align: center;
 }
+
 .image-gallery {
     box-sizing: border-box;
     border: solid black 3px;
 }
+
 .bottom-box {
     background-color: black;
     color: white;
     text-align: center;
 }
+
 .contact {
     border: white solid 1px;
     color: white;
     background-color: inherit;
 }
+
 .contact:hover {
     background-color: white;
     color: black;
 }
+
+
+/*flexed icons below................*/
+
+.flex-icon-container {
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(119, 169, 243);
+    color: white;
+}
+
+.flex-icons {
+    border: 1px white solid;
+    padding: 1%;
+}
+
+.flex-icon-container {
+    flex-wrap: wrap;
+}
+
+.flex-icons {
+    flex: 33.3%;
+}
+
+@media screen and (max-width:992px) {
+    flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .flex-icon-container {
+        flex-direction: column;
+        color: green;
+        text-align: center;
+        /*why doesnt text align target all of them*/
+    }
+}
+
 .footer {
     text-align: center;
 }
+
 
 /*
     display: flex;
     flex-wrap: wrap;*/
 
+
 /*TESTING**********************/
+
 
 /*this
 .gallery-container2 {
@@ -133,6 +191,7 @@ p span {
     width: 50px;
     height: auto;
 }*/
+
 
 /* TESTING********************* .gallery {
     border: solid blue 1px;
@@ -205,44 +264,54 @@ div.desc {
     text-align: center;
 }
 */
+
 #abcpic1 {
     width: 200px;
     height: 200px;
 }
+
 #abcpic2 {
     width: 200px;
     height: 200px;
 }
+
 #abcpic3 {
     width: 200px;
     height: 200px;
 }
+
 #abcpic4 {
     width: 200px;
     height: 200px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
+
 /* Create four equal columns */
+
 .column {
     flex: 25%;
     padding: 20px;
     /* WHY DOES ADDING A COLOR ALTER THE FORMATTING*/
-    
     background-color: rgba(245, 10, 206, 0.863);
 }
 
+
 /* On screens that are 992px wide or less, go from four columns to two columns */
+
 @media screen and (max-width: 992px) {
     .column {
         flex: 50%;
     }
 }
 
+
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
