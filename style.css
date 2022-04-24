@@ -8,6 +8,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .body {
@@ -73,6 +75,11 @@ h1 {
 
 .middle-white-space {
     text-align: center;
+    margin: 3% 0
+}
+
+.middle-white-space h3 {
+    font-size: 20px;
 }
 
 .suit-image {
@@ -211,6 +218,10 @@ p span {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.times {
+    list-style-type: none;
 }
 
 
